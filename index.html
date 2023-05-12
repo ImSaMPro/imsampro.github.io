@@ -1,100 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <title>Soumyadeep Mandal - Full-Stack Developer | UI/UX Developer | Open-Source Contributor | Community Leader</title>
-    <style>
-        * {
-            box-sizing: border-box;
-            margin: 0;
-            padding: 0;
-        }
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-        }
-        .header {
-            background-color: #333;
-            color: white;
-            padding: 20px;
-        }
-        .header h1 {
-            font-size: 36px;
-        }
-        .header p {
-            font-size: 18px;
-        }
-        .nav {
-            display: flex;
-            justify-content: space-around;
-            align-items: center;
-            background-color: #eee;
-            padding: 10px;
-        }
-        .nav a {
-            text-decoration: none;
-            color: #333;
-            font-weight: bold;
-        }
-        .nav a:hover {
-            color: #999;
-        }
-        .main {
-            display: flex;
-            flex-wrap: wrap;
-            margin: 20px;
-        }
-        .main .sidebar {
-            width: 25%;
-            background-color: #f0f0f0;
-            padding: 20px;
-        }
-        .main .sidebar h3 {
-            font-size: 24px;
-            margin-bottom: 10px;
-        }
-        .main .sidebar ul {
-            list-style-type: none;
-        }
-        .main .sidebar li {
-            margin-bottom: 5px;
-        }
-        .main .content {
-            width: 75%;
-            padding: 20px;
-        }
-        .main .content h2 {
-            font-size: 28px;
-            margin-bottom: 10px;
-        }
-        .main .content p {
-            font-size: 18px;
-            line-height: 1.5;
-        }
-        .footer {
-            background-color: #333;
-            color: white;
-            padding: 20px;
-            text-align: center;
-        }
-    </style>
+    <title>Soumyadeep Mandal - Full-Stack Developer | UI/UX Developer | Open-Source Contributor | Community Leader
+    </title>
+    <!-- Bootstrap CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 </head>
+
 <body>
-    <div class="container">
-        <div class="header">
-            <h1>Soumyadeep Mandal</h1>
-            <p>Full-Stack Developer | UI/UX Developer | Open-Source Contributor | Community Leader</p>
+    <div class="container-fluid">
+        <div class="row bg-dark text-white p-4">
+            <div class="col-md-8">
+                <h1>Soumyadeep Mandal</h1>
+                <p>Full-Stack Developer | UI/UX Developer | Open-Source Contributor | Community Leader</p>
+            </div>
+            <div class="col-md-4 d-flex justify-content-around align-items-center">
+                <a href="#" class="text-white">Home</a>
+                <a href="#" class="text-white">About</a>
+                <a href="#" class="text-white">Projects</a>
+                <a href="#" class="text-white">Contact</a>
+            </div>
         </div>
-        <div class="nav">
-            <a href="#">Home</a>
-            <a href="#">About</a>
-            <a href="#">Projects</a>
-            <a href="#">Contact</a>
-        </div>
-        <div class="main">
-            <div class="sidebar">
+        <div class="row p-4">
+            <div class="col-md-3 bg-light p-4">
                 <h3>Skills</h3>
-                <ul>
+                <ul class="list-unstyled">
                     <li>Web Development</li>
                     <li>Graphics Design</li>
                     <li>SEO</li>
@@ -104,36 +36,50 @@
                     <li>Cloud Computing (AWS, GCP, Azure)</li>
                 </ul>
                 <h3>Social Media</h3>
-                <ul>
+                <ul class="list-unstyled">
                     <li><a href="#">Facebook</a></li>
                     <li><a href="#">Twitter</a></li>
                     <li><a href="#">GitHub</a></li>
                     <li><a href="#">Instagram</a></li>
                 </ul>
                 <h3>Community Leadership</h3>
-                <ul>
+                <ul class="list-unstyled">
                     <li>SPC Kolkata & Webflow</li>
                     <li>AWS User Group Kolkata</li>
                     <li>CNCF Kolkata</li>
                 </ul>
             </div>
-            <div class="content">
+            <div class="col-md-9 p-4">
                 <h2>About Me</h2>
-                <p>Hi, My name is Soumyadeep Mandal or you can call me SaM. I have been working as a freelancer in different fields including Web Development, Graphics Design, SEO, UI/UX Design, WordPress, Digital Marketing, Cloud Computing (AWS, GCP, Azure).</p>
-                <p>I'm a Community Leader at SPC: Kolkata & Webflow and Co-Leader at AWS User Group Kolkata, CNCF Kolkata</p>
-                <p>I like to explore new technologies and love to work with them. I believe that each technology itself is a great product, so I like to combine all my knowledge & skills to build something new and Interesting as well as innovative.</p>
+                <p>Hi, My name is Soumyadeep Mandal or you can call me SaM. I have been working as a freelancer in
+                    different fields including Web Development, Graphics Design, SEO, UI/UX Design, WordPress, Digital
+                    Marketing, Cloud Computing (AWS, GCP, Azure).</p>
+                <p>I'm a Community Leader at SPC: Kolkata & Webflow and Co-Leader at AWS User Group Kolkata, CNCF
+                    Kolkata</p>
+                <p>I like to explore new technologies and love to work with them. I believe that each technology itself
+                    is a great product, so I like to combine all my knowledge & skills to build something new and
+                    Interesting as well as innovative.</p>
                 <h2>Projects</h2>
                 <p>Here are some of the projects that I have worked on or contributed to:</p>
-                <ul>
-                    <li><a href="#">Docker Containers for Dummies: Simplifying the Complexities for Beginners</a></li>
-                    <li><a href="#">Basic Disk or Dynamic Disk: Which one to Choose for Your Windows PC?</a></li>
-                    <li><a href="#">Hashnode Bootcamp Day 3: Monetizing Your Expertise and Exploring Opportunities</a></li>
+                <ul class="list-group">
+                    <li class="list-group-item"><a href="#">Docker Containers for Dummies: Simplifying the Complexities
+                            for Beginners</a></li>
+                    <li class="list-group-item"><a href="#">Basic Disk or Dynamic Disk: Which one to Choose for Your
+                            Windows PC?</a></li>
+                    <li class="list-group-item"><a href="#">Hashnode Bootcamp Day 3: Monetizing Your Expertise and
+                            Exploring Opportunities</a></li>
                 </ul>
             </div>
         </div>
-        <div class="footer">
-            <p>© 2023 Soumyadeep Mandal. All rights reserved.</p>
+        <div class="row bg-dark text-white p-4">
+            <div class="col-md-12 text-center">
+                <p>© 2023 Soumyadeep Mandal. All rights reserved.</p>
+            </div>
         </div>
     </div>
+    <!-- Bootstrap CDN -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
+
 </html>
